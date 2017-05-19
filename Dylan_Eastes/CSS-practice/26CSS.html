@@ -1,0 +1,31 @@
+<!--Set a text shadow to the <h1> element that is "2px" horizontal,
+"2px" vertical, "blue" and has a "5px" blur.
+Add a new shadow (do not remove the blue one) to the <h1> element that
+has no horizontal or vertical shadow, "10px" blur and is "red".
+Set a box shadow to the <div> element that is "10px" horizontal,
+"10px" vertical, "grey" and has a "5px" blur.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>26 CSS</title>
+    <style>
+      div{
+        box-shadow: 10px 10px grey;
+        background-color:lightblue;
+        width: 250px;
+        padding: 15px;
+
+      }
+      h1 {
+        text-shadow: 2px 2px 5px blue, 0 0 10px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>This is a Heading</h1>
+      <p>This is a paragraph.</p>
+      <p>This is another paragraph.</p>
+    </div>
+  </body>
+</html>

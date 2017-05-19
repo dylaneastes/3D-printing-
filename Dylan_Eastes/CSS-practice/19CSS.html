@@ -1,0 +1,30 @@
+<!--Position the element with the "topleft" class 50px
+from the left, and 100px from the top, relative to its container.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>19 CSS</title>
+    <style>
+    .container {
+      position: relative;
+      }
+    .topleft {
+      position: absolute;
+      left: 50px;
+      top: 100px;
+      font-size: 4em;
+      }
+    img {
+      width: 100%;
+      height: auto;
+      opacity: 0.75;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="add_files/Web.jpg">
+      <div class="topleft">Top Left</div>
+    </div>
+  </body>
+</html>

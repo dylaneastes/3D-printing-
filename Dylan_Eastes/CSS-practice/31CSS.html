@@ -1,0 +1,25 @@
+<!--Add a 2 second transition effect for the
+background and transform changes to <div>.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>31 CSS</title>
+    <style>
+      div{
+        width:100px;
+        height:100px;
+        background-color: red;
+        transition: background 2s, transform 2s;
+
+      }
+      div:hover{
+        background-color: blue;
+        transform: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <p>Hover over the div element above</p>
+  </body>
+</html>

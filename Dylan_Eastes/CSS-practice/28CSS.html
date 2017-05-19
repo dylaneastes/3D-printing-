@@ -1,0 +1,43 @@
+<!--With the transform property:
+move <div id=s1> 100px to the right, and 200 px down.
+rotate <div id=s2> 45 degrees.
+change the size of <div id=s3> to half it's width but double it's height.
+skew <div id=s4> 20 degrees X and 30 degrees Y.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>28 CSS</title>
+    <style>
+      div{
+        width:100px;
+        height:100px;
+        margin: 50px;
+        border: 1px solid black;
+      }
+      #s1{
+        background-color: red;
+        transform: translate(100px, 200px);
+      }
+      #s2{
+        background-color: blue;
+        transform: rotate(45deg);
+      }
+      #s3{
+        background-color: green;
+        transform: scale(.5, 2);
+      }
+      #s4{
+        background-color: yellow;
+        transform: skew(20deg,30deg);
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="s1"></div>
+    <div id="s2"></div>
+    <div id="s3"></div>
+    <div id="s4"></div>
+  </body>
+</html>

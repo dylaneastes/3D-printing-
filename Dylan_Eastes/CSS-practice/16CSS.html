@@ -1,0 +1,51 @@
+<!--Assign the following attributes to unvisited links:
+  *background color of lightblue
+  *text color of green
+  *no text decoration
+Assign the following attributes to visited sites:
+  *background color of lightblue
+  *text color of navy
+  *underline text decoration
+Assign the following attributes to hovered links:
+  *background color of yellow
+  *text color of navy
+  *no text decoration
+Assign the following attributes to selected links:
+  *background color of green
+  *text color of yellow
+  *striethrough text decoration-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>16 CSS</title>
+    <style>
+    body{font-size: 2em;}
+    a:link {
+      background-color: lightblue;
+      color: green;
+      text-decoration: none;
+    }
+    a:visited {
+      background-color: lightblue;
+      color: navy;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: yellow;
+      color: navy;
+      text-decoration: underline;
+    }
+    a:active {
+      background-color: green;
+      color: yellow;
+      text-decoration: line-through;
+    }
+
+    </style>
+  </head>
+  <body>
+    <a href='#'>If at first you don't succeed; call it version 1.0.</a><br>
+    <a href='#1'>The truth is out there. Anybody got the URL?</a><br>
+    <a href='#2'>My attitude isn't bad. It's in beta.</a><br>
+  </body>
+</html>

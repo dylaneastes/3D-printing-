@@ -1,0 +1,25 @@
+<!--Using the transition shorthand porperty, specify
+width changes the <div> element should have:
+"2s" duration, "ease-in-out" speed curve and
+a "0.5"second delay before starting.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>30 CSS</title>
+    <style>
+      div{
+        width:100px;
+        height:100px;
+        background-color: red;
+        transition: width 2s ease-in-out .5s;
+      }
+      div:hover{
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <p>Hover over the div element above</p>
+  </body>
+</html>

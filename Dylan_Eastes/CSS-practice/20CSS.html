@@ -1,0 +1,60 @@
+<!--Add a scrollbar to the <div id=scroll> element.
+Specify that the overflowing text in <div id=chop> should not be
+visible, not even with scrolling.
+Add a horizontal scroll bar to <div id=hscroll>.-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>20 CSS</title>
+    <style>
+      #scroll{
+        background-color: #eee;
+        width: 200px;
+        height: 110px;
+        border: 1px dotted black;
+        overflow: scroll;
+      }
+      #chop{
+        background-color: lightblue;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+      }
+      #hscroll{
+        background-color: #eee;
+        width: 150px;
+        height: 70px;
+        border: 1px dotted black;
+        white-space: nowrap;
+        overflow-x: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div id=scroll>
+      <p>It is a period of civil war. Rebel spaceships, striking from a hidden
+         base, have won their first victory against the evil Galactic Empire.</p>
+      <p>During the battle, Rebel spies managed to steal secret plans to the
+        Empire's ultimate weapon, the DEATH STAR, an armored space station
+        with enough power to destroy an entire planet.</p>
+      <p>Pursued by the Empire's sinister agents, Princess Leia races home
+        aboard her starship, custodian of the stolen plans that can save her
+        people and restore freedom to the galaxy...."</p>
+    </div>
+    <div id=chop>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.
+    </div>
+    <div id=hscroll>
+      <p>This is the song that never ends.
+        It just goes on and on my friends.
+        Some people started singing it, not knowing what it was;
+        And they'll continue singing it forever just because...</p>
+      </div>
+  </body>
+</html>
